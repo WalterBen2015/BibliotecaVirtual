@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../public/logo_escuela.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#login-container, #create-account-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+input, select, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+}
+
+#edit-button {
+    background-color: green;
+    color: white;
+}
+
+#delete-button {
+    background-color: red;
+    color: white;
+}
+
+#solicitar-button {
+    background-color: pink;
+    color: white;
+}
+
+#back-to-login {
+    background-color: gray;
+    color: white;
+}
